@@ -1,0 +1,13 @@
+main {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+picture {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  z-index: -1;
+}
