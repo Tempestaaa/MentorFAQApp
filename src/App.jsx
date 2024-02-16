@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <picture>
-        <source sizes="max-width: 375px" srcSet={mobile}></source>
+        <source media="(max-width: 600px)" srcSet={mobile} />
         <img src={desktop} alt="desktop" />
       </picture>
       <Faqs />
